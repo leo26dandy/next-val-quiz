@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "id": "GKfrCbCN5f",
+      "title": "Which Agent is known for their signature ability to create walls of ice?",
+      "answers": ["Sage", "Jett", "Reyna", "Killjoy"],
+      "correct_answer": "Sage"
+    },
+    {
+      "id": "cQC0Y2Dmhu",
+      "title": "Which map features a teleporter that can transport players between two sites?",
+      "answers": ["Bind", "Haven", "Split", "Ascent"],
+      "correct_answer": "Bind"
+    },
+    {
+      "id": "DFfAzImRk6",
+      "title": "What is the name of the currency used to purchase weapons and abilities in Valorant?",
+      "answers": ["Creds", "Spikes", "Points", "Tokens"],
+      "correct_answer": "Creds"
+    },
+    {
+      "id": "RY9qUoigEA",
+      "title": "Which Agent's ultimate ability can revive fallen teammates?",
+      "answers": ["Sage", "Phoenix", "Raze", "Brimstone"],
+      "correct_answer": "Sage"
+    },
+    {
+      "id": "qsLWiq531a",
+      "title": "What is the name of the spike-defusing robot that can be deployed by defenders?",
+      "answers": ["Killjoy", "KAY/O", "Cypher", "Killswitch"],
+      "correct_answer": "Killjoy"
+    },
+    {
+      "id": "WbxoPIWfyk",
+      "title": "Which Agent is known for their ability to control areas with poison clouds?",
+      "answers": ["Viper", "Omen", "Astra", "Yoru"],
+      "correct_answer": "Viper"
+    },
+    {
+      "id": "MUfeMhv3n8",
+      "title": "How many rounds are needed to win a standard Valorant match?",
+      "answers": ["12", "13", "15", "20"],
+      "correct_answer": "13"
+    },
+    {
+      "id": "c2Ocp9ZvN2",
+      "title": "Which Agent's ultimate ability can suppress enemy abilities for a short duration?",
+      "answers": ["KAY/O", "Skye", "Sova", "Breach"],
+      "correct_answer": "KAY/O"
+    },
+    {
+      "id": "ypcGVPrhsg",
+      "title": "What is the name of the sidearm that all Agents start with?",
+      "answers": ["Classic", "Ghost", "Sheriff", "Frenzy"],
+      "correct_answer": "Classic"
+    },
+    {
+      "id": "gC3jrDwEYk",
+      "title": "Which map features three distinct sites, instead of the usual two?",
+      "answers": ["Haven", "Icebox", "Breeze", "Fracture"],
+      "correct_answer": "Haven"
+    },
+    {
+      "id": "csOEYs6zXn",
+      "title": "Which Agent is known for their ability to create fake footsteps to deceive enemies?",
+      "answers": ["Yoru", "Cypher", "Omen", "Chamber"],
+      "correct_answer": "Yoru"
+    },
+    {
+      "id": "cyqZYE8DIK",
+      "title": "What is the name of the sniper rifle that can one-shot enemies with a headshot?",
+      "answers": ["Operator", "Guardian", "Marshal", "Vandal"],
+      "correct_answer": "Operator"
+    },
+    {
+      "id": "CfQnf3lH56",
+      "title": "Which Agent's ultimate ability can create a temporary copy of themselves?",
+      "answers": ["Phoenix", "Jett", "Reyna", "Neon"],
+      "correct_answer": "Phoenix"
+    },
+    {
+      "id": "e3dDjEEWl0",
+      "title": "How many Agents can a team choose in a standard Valorant match?",
+      "answers": ["4", "5", "6", "7"],
+      "correct_answer": "5"
+    },
+    {
+      "id": "wKuUTrvMrF",
+      "title": "What is the name of the ability that allows Sova to shoot recon arrows that reveal enemies?",
+      "answers": ["Recon Bolt", "Revealer Dart", "Hunter's Fury", "Shock Dart"],
+      "correct_answer": "Recon Bolt"
+    },
+    {
+      "id": "SlYDds3o7F",
+      "title": "Which map features a unique environmental hazard in the form of a rotating carousel?",
+      "answers": ["Ascent", "Fracture", "Breeze", "Icebox"],
+      "correct_answer": "Breeze"
+    }
+  ]
+}
