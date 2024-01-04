@@ -1,8 +1,4 @@
 
-<div align="center">
-
-![Thumbnail](./public/thumbnail.jpg)
-
 </div>
 
 ## Getting Started
