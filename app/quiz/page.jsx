@@ -7,12 +7,12 @@ Renders a Next.js page component that displays a quiz introduction with an image
 import { Container } from '@/components'
 import Image from 'next/image'
 import Link from 'next/link'
-import { endpoint } from '@/utils/endpoint'
+// import { endpoint } from '@/utils/endpoint'
 import { TbArrowBigRightFilled } from 'react-icons/tb'
 
 
 export async function getRandomQuizQuestion() {
-  const data = await fetch(`${endpoint}/quiz/random`, {cache: 'no-store'})
+  const data = await fetch(`${process.env.API_ENDPOINT}quiz/random`, {cache: 'no-store'})
 
   if (!data.ok) {
     throw new Error('Failed to fetch data')

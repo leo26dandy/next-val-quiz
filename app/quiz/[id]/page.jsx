@@ -9,11 +9,11 @@ Renders a Next.js page component that displays a quiz question and its answer op
 
 import { Container } from '@/components'
 import { Answer } from '@/components/Answer'
-import { endpoint } from '@/utils/endpoint'
+// import { endpoint } from '@/utils/endpoint'
 
 
 async function getQuizQuestion(id) {
-  const data = await fetch(`${endpoint}/quiz/${id}`)
+  const data = await fetch(`${process.env.API_ENDPOINT}quiz/${id}`)
 
   if (!data.ok) {
     throw new Error('Failed to fetch data')
