@@ -1,1 +1,1 @@
-export const endpoint = `${process.env.LOCALHOST}/api/`
+export const endpoint = `${process.env.VERCEL_URL}/api/`
