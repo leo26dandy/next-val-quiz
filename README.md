@@ -1,52 +1,9 @@
-<div id="top"></div>
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://www.freecodecamp.org/">
-    <img src="./public/fcc.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">How to Create a Full-Stack Application with Next.js</h3>
-
-  <p align="center">
-    A Step-By-Step Tutorial for Beginners
-    <br />
-    <a href="https://www.freecodecamp.org/news/step-by-step-tutorial-for-building-your-first-full-stack-application-with-nextjs"><strong>Read on FreeCodeCamp »</strong></a>
-    <br />
-    <br />
-    <a href="https://next-fcc-familyguy.vercel.app/">View Demo</a>
-    ·
-    <a href="https://github.com/Yazdun/next-fcc-familyguy/issues">Request Feature</a>
-    ·
-    <a href="https://github.com/Yazdun/next-fcc-familyguy/issues">Report Bug</a>
-  </p>
-
-[![freeCodeCamp](https://img.shields.io/badge/-freeCodeCamp-brightgreen?logo=freeCodeCamp)](https://www.freecodecamp.org/)
-[![React](https://img.shields.io/badge/-React-blue?logo=React)](https://reactjs.org/)
-[![React Hook Form](https://img.shields.io/badge/-Next.js-6E36F6?logo=Next.js&logoColor=white&color=black)](https://react-hook-form.com/)
-[![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=Tailwind%20CSS&logoColor=black&color=white)](https://tailwindcss.com/)
-[![JavaScript](https://img.shields.io/badge/-JavaScript-FFA500?logo=JavaScript&logoColor=white&color=FFA500)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Framer Motion](https://img.shields.io/badge/-Framer%20Motion-blue?logo=Framer)](https://www.framer.com/api/motion/)
-
-</div>
 
 <div align="center">
 
 ![Thumbnail](./public/thumbnail.jpg)
 
 </div>
-
-## Introduction
-
-Welcome to the GitHub repository for the
-[How to Create a Full-Stack Application with Next.js](https://www.freecodecamp.org/news/step-by-step-tutorial-for-building-your-first-full-stack-application-with-nextjs)
-tutorial!
-
-In this tutorial, I will take you through the basics of Next.js and guide you in
-creating your very first full-stack application. By the end of this tutorial,
-you'll have the confidence to start building your own full-stack applications
-with Next.js. So let's jump right in and unlock the power of Next.js together!
 
 ## Getting Started
 
@@ -56,7 +13,7 @@ these steps:
 1. Clone the repository to your local machine.
 
 ```bash
-git@github.com:your-username/next-fcc-familyguy.git
+https://github.com/leo26dandy/next-val-quiz.git
 ```
 
 2. Open the cloned folder in your preferred code editor, install the required
