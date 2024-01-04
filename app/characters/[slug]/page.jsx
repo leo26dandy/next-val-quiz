@@ -2,14 +2,14 @@ import { Container } from '@/components';
 import Image from 'next/image';
 import { endpoint } from '@/utils/endpoint';
 
-import { getAllCharacters } from '@/lib/characters';
+// import { getAllCharacters } from '@/lib/characters';
 
 export const dynamicParams = false;
 
-export async function generateStaticParams() {
-  const { characters } = await getAllCharacters();
-  return characters.map((character) => ({ slug: character.displayName }));
-}
+// export async function generateStaticParams() {
+//   const { characters } = await getAllCharacters();
+//   return characters.map((character) => ({ slug: character.displayName }));
+// }
 
 // export async function getCharacterBySlug(slug) {
 //   try {
