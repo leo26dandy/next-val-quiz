@@ -6,10 +6,10 @@ import { getAllCharacters } from '@/lib/characters';
 
 export const dynamicParams = false;
 
-export async function generateStaticParams() {
-  const { characters } = await getAllCharacters();
-  return characters.map((character) => ({ slug: character.displayName }));
-}
+// export async function generateStaticParams() {
+//   const { characters } = await getAllCharacters();
+//   return characters.map((character) => ({ slug: character.displayName }));
+// }
 
 // export async function getCharacterBySlug(slug) {
 //   try {
