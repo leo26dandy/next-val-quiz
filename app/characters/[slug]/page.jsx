@@ -11,30 +11,30 @@ export async function generateStaticParams() {
   return characters.map((character) => ({ slug: character.displayName }));
 }
 
-export async function getCharacterBySlug(slug) {
-  try {
-    const data = await fetch(`${endpoint}characters/${slug}`);
+// export async function getCharacterBySlug(slug) {
+//   try {
+//     const data = await fetch(`${endpoint}characters/${slug}`);
     
-    if (!data.ok) {
-      throw new Error(`Failed to fetch data: ${data.status} ${data.statusText}`);
-    }
+//     if (!data.ok) {
+//       throw new Error(`Failed to fetch data: ${data.status} ${data.statusText}`);
+//     }
 
-    return await data.json();
+//     return await data.json();
     
-  } catch (error) {
-    console.error('There was a problem:', error)
-  }
+//   } catch (error) {
+//     console.error('There was a problem:', error)
+//   }
 
-}
+// }
 
 export default async function Page({ params }) {
-  const {
-    character,
-    character_poster,
-    character_description,
-    character_role,
-    character_abilities,
-  } = await getCharacterBySlug(params.slug);
+  // const {
+  //   character,
+  //   character_poster,
+  //   character_description,
+  //   character_role,
+  //   character_abilities,
+  // } = await getCharacterBySlug(params.slug);
 
   return (
     <Container className='flex flex-col gap-5 py-5' as='main'>
