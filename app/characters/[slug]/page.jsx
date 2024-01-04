@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 
 export async function getCharacterBySlug(slug) {
   try {
-    const data = await fetch(`https://next-val-quiz.vercel.app/characters/${slug}`);
+    const data = await fetch(`https://next-val-quiz.vercel.app/api/characters/${slug}`);
     
     if (!data.ok) {
       throw new Error(`Failed to fetch data: ${data.status} ${data.statusText}`);
