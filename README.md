@@ -8,7 +8,7 @@ these steps:
 1. Clone the repository to your local machine.
 
 ```bash
-[git@github.com:your-username/next-fcc-familyguy.git](https://github.com/leo26dandy/next-val-quiz.git)
+https://github.com/leo26dandy/next-val-quiz.git
 ```
 
 2. Open the cloned folder in your preferred code editor, install the required
