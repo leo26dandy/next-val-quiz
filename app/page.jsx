@@ -11,7 +11,7 @@ import Link from 'next/link'
 import { endpoint } from '@/utils/endpoint'
 
 async function getAllCharacters() {
-  const data = await fetch(`${process.env.customKey}/characters`)
+  const data = await fetch(`https://next-val-quiz.vercel.app/characters`)
 
   if (!data.ok) {
     throw new Error('Failed to fetch data')
