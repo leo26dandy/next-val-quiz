@@ -1,6 +1,6 @@
 import { Container } from '@/components';
 import Image from 'next/image';
-import { endpoint } from '@/utils/endpoint';
+// import { endpoint } from '@/utils/endpoint';
 
 import { getAllCharacters } from '@/lib/characters';
 
@@ -13,8 +13,7 @@ export async function generateStaticParams() {
 
 export async function getCharacterBySlug(slug) {
   try {
-    const apiEndpoints = process.env.API_ENDPOINT
-    const data = await fetch(apiEndpoints`/characters/${slug}`);
+    const data = await fetch(`${process.env.API_ENDPOINT}characters/${slug}`);
     
     if (!data.ok) {
       throw new Error(`Failed to fetch data: ${data.status} ${data.statusText}`);

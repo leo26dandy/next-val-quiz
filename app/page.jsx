@@ -8,11 +8,10 @@ Renders a Next.js page component that displays a grid of character avatars with 
 import { Container } from '@/components'
 import Image from 'next/image'
 import Link from 'next/link'
-import { endpoint } from '@/utils/endpoint'
+// import { endpoint } from '@/utils/endpoint'
 
 async function getAllCharacters() {
-  const apiEndpoints = process.env.API_ENDPOINT
-  const data = await fetch(apiEndpoints`/characters`)
+  const data = await fetch(`${process.env.API_ENDPOINT}characters`)
 
   if (!data.ok) {
     throw new Error('Failed to fetch data')
