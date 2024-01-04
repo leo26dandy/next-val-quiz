@@ -13,7 +13,8 @@ export async function generateStaticParams() {
 
 export async function getCharacterBySlug(slug) {
   try {
-    const data = await fetch(`${process.env.apiEndpoint}/characters/${slug}`);
+    const apiEndpoints = process.env.API_ENDPOINT
+    const data = await fetch(apiEndpoints`/characters/${slug}`);
     
     if (!data.ok) {
       throw new Error(`Failed to fetch data: ${data.status} ${data.statusText}`);

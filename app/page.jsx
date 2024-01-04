@@ -11,7 +11,8 @@ import Link from 'next/link'
 import { endpoint } from '@/utils/endpoint'
 
 async function getAllCharacters() {
-  const data = await fetch(`${process.env.apiEndpoint}/characters`)
+  const apiEndpoints = process.env.API_ENDPOINT
+  const data = await fetch(apiEndpoints`/characters`)
 
   if (!data.ok) {
     throw new Error('Failed to fetch data')
